@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.2);
+}
+.navbar .leftside p{
+    padding:8px 0px 8px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Courier, monospace;
+  
+}
+.navbar .leftside{
+    display: flex;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding:2px;
+}
+.navbar .leftside img{
+    width: 90px;
+    height: 70px;
+}
+.navbar .rightside ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .rightside ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    list-style: none;
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size:22px;
+    font-weight: 500;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1px 22px;
+    position: relative;
+    z-index: 2;
+  
+} 
+
+.navbar .rightside ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar .rightside ul li::after{
+    content: '';
+    background:#FF6865;
+    width:100%;
+    height: 50%;
+    border-radius: 30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: 0;
+} 
+.navbar .rightside ul li:hover{
+ color:fff;
+}
+.navbar .rightside ul li:hover::after{
+    top:50%;
+    opacity: 0.7;
+}
+
+.rightside i{
+    font-size:48px;
+    color:black;
+}
+.BarIcon{
+    display: none;
+}
+.CartIcon{
+        background-color: transparent;
+        border: none;
+        position: relative;
+}
+.CartIcon span{
+    display:flex;
+    width:20px;
+    height:20px;
+    background-color:red;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    border-radius: 50%;
+    position:absolute;
+    top:40%;
+    right:0px;
+}
+@media (max-width:768px) {
+    .BarIcon{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 26px;
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+    }
+    .navlink{
+        display:none;
+    }
+    
+    .navlink-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        transition: all 0.5s ease-in-out;
+        width:100%;
+        background:rgb(250, 219, 148);
+        top: 12%;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    ul li,.CartIcon{
+        padding: 5px;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+
+}
