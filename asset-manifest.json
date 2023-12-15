@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my_react_project/static/css/main.f6e6d569.css",
+    "main.js": "/my_react_project/static/js/main.3441c82b.js",
+    "static/media/Home_background.png": "/my_react_project/static/media/Home_background.b31fd697aeeb5ab13840.png",
+    "static/media/jigae.png": "/my_react_project/static/media/jigae.88eccd5c230d9a7f6c40.png",
+    "static/media/Gamjatang.jpg": "/my_react_project/static/media/Gamjatang.3ecc75a81bc63f812786.jpg",
+    "static/media/kitchencloth.jpg": "/my_react_project/static/media/kitchencloth.0109f2baa1d19d494725.jpg",
+    "static/media/bossam.jpg": "/my_react_project/static/media/bossam.cd506555e5398aea8b57.jpg",
+    "static/media/bulgogi.jpg": "/my_react_project/static/media/bulgogi.d08d6d309c10122917f5.jpg",
+    "static/media/klogo.png": "/my_react_project/static/media/klogo.934b61cb0228d464cafe.png",
+    "static/media/mandu.jpg": "/my_react_project/static/media/mandu.0e6aa7b2f05a1bea0d08.jpg",
+    "static/media/bibimbap.jpg": "/my_react_project/static/media/bibimbap.a681454b031c3d7a2af2.jpg",
+    "static/media/budaejjigae.jpg": "/my_react_project/static/media/budaejjigae.df67c44334c7115b322f.jpg",
+    "static/media/Kimchi.jpg": "/my_react_project/static/media/Kimchi.96fe778061cfe304d57c.jpg",
+    "static/media/tteokbokki.jpg": "/my_react_project/static/media/tteokbokki.33b767da81f53a4d364d.jpg",
+    "static/media/Japchae.jpg": "/my_react_project/static/media/Japchae.1cf4b1d02b23c6f17ea0.jpg",
+    "static/media/dumpling.png": "/my_react_project/static/media/dumpling.656b2f01e6975897b8f8.png",
+    "static/media/gimbap.jpg": "/my_react_project/static/media/gimbap.4b3d0ff68235e7511e8a.jpg",
+    "static/media/mineral_water.jpg": "/my_react_project/static/media/mineral_water.006d2eabb744ff8056ed.jpg",
+    "static/media/Gopchang.jpg": "/my_react_project/static/media/Gopchang.0da5663cff0674b1e2c5.jpg",
+    "static/media/Jajangmyeon.jpg": "/my_react_project/static/media/Jajangmyeon.59c68dc4a0416ed6e33e.jpg",
+    "static/media/bibimGuksu.jpg": "/my_react_project/static/media/bibimGuksu.2a6f4dcf5b3bf0fb1853.jpg",
+    "static/media/omuk.jpg": "/my_react_project/static/media/omuk.d3016b885c855ef61c3e.jpg",
+    "static/media/beer.jpg": "/my_react_project/static/media/beer.e05d32eed853dac6a3f8.jpg",
+    "index.html": "/my_react_project/index.html",
+    "main.f6e6d569.css.map": "/my_react_project/static/css/main.f6e6d569.css.map",
+    "main.3441c82b.js.map": "/my_react_project/static/js/main.3441c82b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6e6d569.css",
+    "static/js/main.3441c82b.js"
+  ]
+}
